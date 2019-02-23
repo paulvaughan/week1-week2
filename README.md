@@ -1,6 +1,6 @@
 # Lab Day-2
 
-Hold demo and lab code for day two.git
+## Hold demo and lab code for day two.git
 
 - We created a weekly git repository
 - Added a new lab-day-2 branch
