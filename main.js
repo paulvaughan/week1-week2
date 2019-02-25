@@ -1,5 +1,8 @@
 'use strict'
 // Design guessing game about yourself that involves five YES/NO questions. Be creative and fun.
+
+// My guessing game acts like a log-in procedure for a webpage or an account; asking specific questions of the user and providing affirmations or rejection responses to determine if you are authorized to view the page.
+
 let question1 = prompt('What is your real name?');
 if (question1 === 'Pablo'){
   confirm ('Yessir!')
