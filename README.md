@@ -10,3 +10,8 @@
 - includes html, css and js
 - use of creative intuition 
 - adherence to specific code parameters (as stated in assignment)
+
+## Final edits for lab assignment two
+- updates to css, html and js
+- verification of js code
+- fingers crossed

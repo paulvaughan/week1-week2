@@ -1,12 +1,21 @@
 ul {
-  list-style: none
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(199, 137, 235);
 }
 
-li {
-  display: inline;
-  font-size: 25px;
-  color: white;
-  font-family: 'Caveat Brush', cursive;
+li a {
+  float: left;
+  font-size: 35px;
+  font-family: 'Gochi Hand', cursive;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+}
+a:hover {
+color: white
 }
 
 body {
