@@ -36,7 +36,7 @@ if (question4 === 'Becoming a Developer'){
 }
 
 else {
-  confirm ('That"s it, I\'m calling the cops!')
+  confirm ('That\'s it, I\'m calling the cops!')
 }
 
  let question5 = prompt('Finally, what is your favorite movie?');
