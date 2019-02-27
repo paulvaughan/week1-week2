@@ -5,11 +5,11 @@
 
 let question1 = prompt('How do you write your nickname?');
 if (question1 === question1.toUpperCase('PABLO')){
-  alert ('Yessir!')
+  confirm ('Yessir!')
  }
 
 else {
-   alert ('Please take a walk!!')
+   confirm ('Please take a walk!!')
  }
 
 let question2 = prompt('Where are you from my friend \(In caps\)?');
@@ -31,7 +31,7 @@ else {
 }
 
 let question4 = prompt('How would you describe yourself professionally \(all lower case\)?')
-if (question4 === 'a developing developer'){
+if (question4 === question4.toLowerCase('a developing developer')){
   confirm ('Sounds like someone I know')
 }
 
@@ -39,13 +39,13 @@ else {
   confirm ('That\'s it, I\'m calling the cops!')
 }
 
- let question5 = prompt ('Finally, what is your favorite movie \(in all caps\)?');
+ let question5 = prompt ('Finally, what is your favorite movie \(in all caps\)?')
  if (question5 === question5.toUpperCase ('THE LION KING')){
-   alert ('Welcome, nice to see you again Pablo')
+   confirm ('Welcome, nice to see you again Pablo')
  }
 
  else {
-   alert ('I don\'t know who you are. I don\'t know what you want. If you\'re looking to get access, I can tell you, it cannot be found here!!')
+   confirm ('I don\'t know who you are. I don\'t know what you want. If you\'re looking to get access, I can tell you, it cannot be found here!!')
  }
 
 
