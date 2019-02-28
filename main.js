@@ -5,11 +5,11 @@
 
 let question1 = prompt('How do you write your nickname?');
 if (question1 === question1.toUpperCase('PABLO')){
-  confirm ('Yessir!')
+  confirm ('Yessir!' .toUpperCase())
  }
 
 else {
-   confirm ('Please take a walk!!')
+   confirm ('Please take a walk!!' .toUpperCase())
  }
 
 let question2 = prompt('Where are you from my friend \(In caps\)?');
@@ -18,25 +18,25 @@ if (question2 === question2.toUpperCase('JAMAICA')){
 }
 
 else {
-  confirm ('No you are an imposter!')
+  confirm ('No you are an imposter!' .toLowerCase())
 }
 
 let question3 = prompt('What is your favorite hobby?');
-if (question3 === 'Basketball'){
-  confirm ('Now we\'re getting somewhere')
+if (question3 === ('Basketball')){
+  confirm ('Now we\'re getting somewhere' .toUpperCase())
 }
 
 else {
-  confirm ('Why are you trying to trick us?')
+  confirm ('Why are you trying to trick us?' .toUpperCase())
 }
 
 let question4 = prompt('How would you describe yourself professionally \(all lower case\)?')
 if (question4 === question4.toLowerCase('a developing developer')){
-  confirm ('Sounds like someone I know')
+  confirm ('Sounds like someone I know' .toLowerCase())
 }
 
 else {
-  confirm ('That\'s it, I\'m calling the cops!')
+  confirm ('That\'s it, I\'m calling the cops!' .toUpperCase())
 }
 
  let question5 = prompt ('Finally, what is your favorite movie \(in all caps\)?')
@@ -45,7 +45,7 @@ else {
  }
 
  else {
-   confirm ('I don\'t know who you are. I don\'t know what you want. If you\'re looking to get access, I can tell you, it cannot be found here!!')
+   confirm ('I don\'t know who you are. I don\'t know what you want. If you\'re looking to get access, I can tell you, it cannot be found here!!' .toUpperCase())
  }
 
 
