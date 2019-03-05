@@ -30,35 +30,35 @@ let name = [
 ['Last Name', 'Leonard', 'Wolde', 'Hamilton', 'Vaughan']
 ]
 
-// function createTable(arr){
-//   let tbl = document.createElement('table')
-//   for (let i=0; i<arr.length; i++){
-//     let td = document.createElement('td')
-//     for(let j=0; j<arr[i].length; j++)
-//     {let tr = document.createElement('tr')
-//     tr.textContent = arr[i][j]
-//     td.appendChild(tr)
-//     }
-//     tbl.appendChild(td)
-//   }
-//   // We selected the html body element to append a table// 
-//   document.querySelector('body').appendChild(tbl)
-// }
-// createTable(name)
-
-// I created an alternate table layout
-
 function createTable(arr){
   let tbl = document.createElement('table')
   for (let i=0; i<arr.length; i++){
-    let tr = document.createElement('tr')
-    for(let j=0; j<arr[i].length; j++){
-      let td =document.createElement('td')
-      td.textContent = arr[i][j]
-      tr.appendChild(td)
+    let td = document.createElement('td')
+    for(let j=0; j<arr[i].length; j++)
+    {let tr = document.createElement('tr')
+    tr.textContent = arr[i][j]
+    td.appendChild(tr)
     }
-    tbl.appendChild(tr)
+    tbl.appendChild(td)
   }
+  // We selected the html body element to append a table// 
   document.querySelector('body').appendChild(tbl)
 }
 createTable(name)
+
+// I created an alternate table layout
+
+// function createTable(arr){
+//   let tbl = document.createElement('table')
+//   for (let i=0; i<arr.length; i++){
+//     let tr = document.createElement('tr')
+//     for(let j=0; j<arr[i].length; j++){
+//       let td =document.createElement('td')
+//       td.textContent = arr[i][j]
+//       tr.appendChild(td)
+//     }
+//     tbl.appendChild(tr)
+//   }
+//   document.querySelector('body').appendChild(tbl)
+// }
+// createTable(name)
